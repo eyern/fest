@@ -87,7 +87,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: var(--primary);
+  color: #ffffff;
 }
 
 @media (max-width: 991.98px) {
@@ -107,7 +107,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: var(--dark);
+  color: #ffffff;
   font-weight: 500;
 }
 
@@ -140,7 +140,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(85, 6, 6, 0.7);
   z-index: 1;
 }
 
@@ -183,7 +183,7 @@
   color: var(--light);
 }
 .fact {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(238, 46, 46, 0.9), rgba(0, 0, 0, 0.9)),
     url(../img/carousel-bg-1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -191,7 +191,7 @@
 }
 
 .service .nav .nav-link {
-  background: var(--light);
+  background: #DC143C;
   transition: 0.5s;
 }
 
@@ -294,7 +294,7 @@
 }
 
 .footer {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+  background: linear-gradient(rgba(238, 46, 46, 0.9), rgba(0, 0, 0, 0.9)),
     url(../img/carousel-bg-1.jpg) center center no-repeat;
   background-size: cover;
 }
