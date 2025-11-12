@@ -140,7 +140,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(85, 6, 6, 0.7);
+  background: rgba(5, 5, 5, 0.7);
   z-index: 1;
 }
 
@@ -264,7 +264,7 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text {
-  background: var(--primary) !important;
+  background: transparent !important;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text * {
