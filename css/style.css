@@ -366,7 +366,7 @@
 .floating-buttons-container {
   /* Position the container at the bottom center of the viewport */
   position: fixed;
-  bottom: 20px; /* Adjust vertical position as needed */
+  bottom: 10px; /* Adjust vertical position as needed */
   left: 50%;
   transform: translateX(-50%); /* Center the container horizontally */
   
@@ -382,7 +382,7 @@
 .f-button {
   /* Style the anchor tags as buttons */
   display: inline-block;
-  padding: 10px 20px;
+  padding: 5px 10px;
   background-color: #DC143C; /* Button color */
   color: white;
   text-decoration: none; /* Remove default underline from links */
@@ -393,5 +393,5 @@
 }
 
 .f-button:hover {
-  background-color: #DC143C; /* Color on hover */
+  background-color: #000; /* Color on hover */
 }
