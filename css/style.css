@@ -362,3 +362,36 @@
   padding-right: 0;
   border-right: none;
 }
+
+.floating-buttons-container {
+  /* Position the container at the bottom center of the viewport */
+  position: fixed;
+  bottom: 20px; /* Adjust vertical position as needed */
+  left: 50%;
+  transform: translateX(-50%); /* Center the container horizontally */
+  
+  /* Use Flexbox to align buttons inside the container */
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 10px; /* Add space between the buttons */
+  
+  /* Ensure buttons are above other content */
+  z-index: 1000;
+}
+
+.f-button {
+  /* Style the anchor tags as buttons */
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #DC143C; /* Button color */
+  color: white;
+  text-decoration: none; /* Remove default underline from links */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.f-button:hover {
+  background-color: #DC143C; /* Color on hover */
+}
